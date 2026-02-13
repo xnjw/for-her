@@ -25,6 +25,10 @@
             color: #fff;
         }
 
+         body {
+    padding-bottom: 500px; /* makes the page longer */
+}
+
         /* --- BOXES FOR VOICEMAIL / SONG --- */
         .box {
              background: rgba(255,255,255,0.15);
@@ -49,6 +53,14 @@
     height: 100px;       /* sets exact height */
     /* OR */
     min-height: 200px;   /* sets minimum height but can grow with content */
+}
+
+         .box2 {
+    min-height: 350px; /* bigger for scroll effect */
+}
+
+.box {
+    min-height: 350px; /* bigger for scroll effect */
 }
 /* --- RANT / COMMENT SECTION --- */
 textarea {
@@ -354,8 +366,11 @@ if (window.innerWidth < 600) {
 }
     </script>
 
+     <div style="height: 600px;"></div>
+
 </body>
 
 </html>
+
 
 
